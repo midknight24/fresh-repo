@@ -46,6 +46,6 @@ public class MainActivity extends Activity {
 
         int one = Integer.parseInt(input1.getText().toString());
         int two = Integer.parseInt(input2.getText().toString());
-        output.setText(Integer.toString(one - two));
+        output.setText(Integer.toString(one + two));
     }
 }
